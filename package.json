@@ -1,0 +1,14 @@
+{
+  "name": "rn-monorepo",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.4.1",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "description": "React Native monorepo designed to represent the best practices using monorepos",
+  "repository": "https://github.com/IgorColetoBueno/rn-monorepo.git",
+  "author": "Igor Bueno <imcbueno@rd.com.br>",
+  "license": "MIT",
+  "private": true
+}
