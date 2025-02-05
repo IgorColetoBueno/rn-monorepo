@@ -2394,7 +2394,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rn-monorepo/design-system@workspace:packages/design-system":
+"@rn-monorepo/design-system@1.0.0, @rn-monorepo/design-system@workspace:packages/design-system":
   version: 0.0.0-use.local
   resolution: "@rn-monorepo/design-system@workspace:packages/design-system"
   dependencies:
@@ -2997,6 +2997,7 @@ __metadata:
     "@react-native/normalize-colors": 0.77.0
     "@react-native/typescript-config": 0.77.0
     "@react-native/virtualized-lists": 0.77.0
+    "@rn-monorepo/design-system": 1.0.0
     "@types/jest": ^29.5.13
     "@types/react": ^18.2.6
     "@types/react-test-renderer": ^18.0.0

@@ -1,0 +1,218 @@
+{
+  "resolver": {
+    "assetExts": [
+      "bmp",
+      "gif",
+      "jpg",
+      "jpeg",
+      "png",
+      "psd",
+      "svg",
+      "webp",
+      "xml",
+      "m4v",
+      "mov",
+      "mp4",
+      "mpeg",
+      "mpg",
+      "webm",
+      "aac",
+      "aiff",
+      "caf",
+      "m4a",
+      "mp3",
+      "wav",
+      "html",
+      "pdf",
+      "yaml",
+      "yml",
+      "otf",
+      "ttf",
+      "zip"
+    ],
+    "assetResolutions": [
+      "1",
+      "1.5",
+      "2",
+      "3",
+      "4"
+    ],
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "sourceExts": [
+      "js",
+      "jsx",
+      "json",
+      "ts",
+      "tsx"
+    ],
+    "blockList": {},
+    "disableHierarchicalLookup": false,
+    "emptyModulePath": "/Users/develcode119/Documents/Personal/rn-monorepo/apps/app/node_modules/metro-runtime/src/modules/empty-module.js",
+    "enableGlobalPackages": false,
+    "extraNodeModules": {},
+    "nodeModulesPaths": [
+      "node_modules",
+      "../../node_modules",
+      "/Users/develcode119/Documents/Personal/rn-monorepo/packages/design-system/node_modules",
+      "/Users/develcode119/Documents/Personal/rn-monorepo/apps/app/node_modules"
+    ],
+    "resolveRequest": null,
+    "resolverMainFields": [
+      "react-native",
+      "browser",
+      "main"
+    ],
+    "unstable_conditionNames": [
+      "require",
+      "import",
+      "react-native"
+    ],
+    "unstable_conditionsByPlatform": {
+      "web": [
+        "browser"
+      ]
+    },
+    "unstable_enablePackageExports": false,
+    "useWatchman": true,
+    "requireCycleIgnorePatterns": [
+      {}
+    ]
+  },
+  "serializer": {
+    "polyfillModuleNames": [],
+    "customSerializer": null
+  },
+  "server": {
+    "forwardClientLogs": true,
+    "port": 8081,
+    "unstable_serverRoot": null,
+    "useGlobalHotkey": true,
+    "verifyConnections": false
+  },
+  "symbolicator": {},
+  "transformer": {
+    "assetPlugins": [],
+    "asyncRequireModulePath": "/Users/develcode119/Documents/Personal/rn-monorepo/apps/app/node_modules/metro-runtime/src/modules/asyncRequire.js",
+    "assetRegistryPath": "react-native/Libraries/Image/AssetRegistry",
+    "babelTransformerPath": "/Users/develcode119/Documents/Personal/rn-monorepo/apps/app/node_modules/@react-native/metro-babel-transformer/src/index.js",
+    "dynamicDepsInPackages": "throwAtRuntime",
+    "enableBabelRCLookup": true,
+    "enableBabelRuntime": true,
+    "globalPrefix": "",
+    "hermesParser": false,
+    "minifierConfig": {
+      "mangle": {
+        "toplevel": false
+      },
+      "output": {
+        "ascii_only": true,
+        "quote_style": 3,
+        "wrap_iife": true
+      },
+      "sourceMap": {
+        "includeSources": false
+      },
+      "toplevel": false,
+      "compress": {
+        "reduce_funcs": false
+      }
+    },
+    "minifierPath": "metro-minify-terser",
+    "optimizationSizeLimit": 153600,
+    "transformVariants": {
+      "default": {}
+    },
+    "workerPath": "metro/src/DeltaBundler/Worker",
+    "publicPath": "/assets",
+    "allowOptionalDependencies": true,
+    "unstable_allowRequireContext": false,
+    "unstable_dependencyMapReservedName": null,
+    "unstable_disableModuleWrapping": false,
+    "unstable_disableNormalizePseudoGlobals": false,
+    "unstable_renameRequire": true,
+    "unstable_compactOutput": false,
+    "unstable_memoizeInlineRequires": false,
+    "unstable_workerThreads": false
+  },
+  "watcher": {
+    "additionalExts": [
+      "cjs",
+      "mjs"
+    ],
+    "healthCheck": {
+      "enabled": false,
+      "filePrefix": ".metro-health-check",
+      "interval": 30000,
+      "timeout": 5000
+    },
+    "unstable_workerThreads": false,
+    "watchman": {
+      "deferStates": [
+        "hg.update"
+      ]
+    }
+  },
+  "cacheStores": [
+    {
+      "_root": "/var/folders/jj/tjnf6k6x7_zc2_0k_q17fx8h0000gn/T/metro-cache"
+    }
+  ],
+  "cacheVersion": "1.0",
+  "projectRoot": "/Users/develcode119/Documents/Personal/rn-monorepo/apps/app",
+  "stickyWorkers": true,
+  "watchFolders": [
+    "..",
+    "/Users/develcode119/Documents/Personal/rn-monorepo/packages/design-system",
+    "/Users/develcode119/Documents/Personal/rn-monorepo/apps/app"
+  ],
+  "transformerPath": "metro-transform-worker",
+  "maxWorkers": 6,
+  "resetCache": true,
+  "reporter": {
+    "_activeBundles": {},
+    "terminal": {
+      "_logLines": [],
+      "_nextStatusStr": "",
+      "_statusStr": "",
+      "_stream": {
+        "connecting": false,
+        "_hadError": false,
+        "_parent": null,
+        "_host": null,
+        "_closeAfterHandlingError": false,
+        "_events": {},
+        "_readableState": {
+          "highWaterMark": 0,
+          "buffer": [],
+          "bufferIndex": 0,
+          "length": 0,
+          "pipes": [],
+          "awaitDrainWriters": null
+        },
+        "_writableState": {
+          "highWaterMark": 65536,
+          "length": 0,
+          "corked": 0,
+          "writelen": 0,
+          "bufferedIndex": 0,
+          "pendingcb": 0
+        },
+        "allowHalfOpen": false,
+        "_eventsCount": 1,
+        "_sockname": null,
+        "_pendingData": null,
+        "_pendingEncoding": "",
+        "server": null,
+        "_server": null,
+        "columns": 80,
+        "rows": 24,
+        "_type": "tty",
+        "fd": 1,
+        "_isStdio": true
+      }
+    }
+  }
+}
